@@ -7,6 +7,11 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        Honk: ["Honk", "system-ui"],
+        Calligraffitti: ["Calligraffitti", "sans-serif"],
+        Roboto: ["Roboto", "sans-serif"],
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":

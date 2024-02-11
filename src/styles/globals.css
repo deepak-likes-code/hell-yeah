@@ -1,6 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Honk&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Calligraffitti&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+p {
+  font-family: "Honk", system-ui;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+p {
+  font-family: "Calligraffitti", cursive;
+}
 
 :root {
   --foreground-rgb: 0, 0, 0;
