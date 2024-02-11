@@ -8,7 +8,7 @@
 @tailwind components;
 @tailwind utilities;
 
-p {
+h1 {
   font-family: "Honk", system-ui;
 }
 
