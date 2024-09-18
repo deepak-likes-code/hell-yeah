@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import ContactSection from "./Contact";
 
 const Sidebar = ({ isOpen }) => (
   <aside
@@ -32,7 +33,7 @@ const Sidebar = ({ isOpen }) => (
         </ul>
       </nav>
       <div className="mt-auto">
-        <h2 className="font-semibold mb-2">socials</h2>
+        <ContactSection />
         {/* Add your social links here */}
       </div>
     </div>

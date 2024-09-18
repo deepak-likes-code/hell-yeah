@@ -6,18 +6,17 @@ const ContactSection = () => {
   const email = "mylavarapuhela@gmail.com";
 
   return (
-    <section className="mb-12">
-      <h2 className="text-2xl font-normal mb-6">Let's talk, say hi!</h2>
-      <div className="flex flex-col  gap-8 items-start">
-        <div className="md:w-1/2">
+    <>
+      <div className="flex flex-col  gap-8 items-center">
+        <div className="w-full">
           <Link href={`mailto:${email}`} passHref legacyBehavior>
-            <a className="inline-flex items-center bg-black text-white px-4 py-2 rounded-md hover:bg-gray-600 transition duration-300">
+            <a className="inline-flex items-center bg-black text-white px-4 py-2 w-full rounded-md hover:bg-gray-600 transition duration-300">
               <Mail size={20} className="mr-2" />
               Send me an email
             </a>
           </Link>
         </div>
-        <div className="md:w-1/2 flex items-center gap-4">
+        <div className="w-full flex items-center justify-center gap-4">
           <a
             href="https://www.linkedin.com/in/hela-mylavarapu-480686186/?originalSubdomain=in"
             target="_blank"
@@ -44,7 +43,7 @@ const ContactSection = () => {
           </a>
         </div>
       </div>
-    </section>
+    </>
   );
 };
 

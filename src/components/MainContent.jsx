@@ -70,10 +70,6 @@ const MainContent = ({ setActiveSection }) => {
 
         <WorkSection />
       </section>
-
-      <section id="contact" className="mb-36">
-        <ContactSection />
-      </section>
     </main>
   );
 };
