@@ -7,7 +7,7 @@ const ContactSection = () => {
 
   return (
     <>
-      <div className="flex flex-col  gap-8 items-center">
+      <div className="flex flex-col mb-4 gap-8 items-center">
         <div className="w-full">
           <Link href={`mailto:${email}`} passHref legacyBehavior>
             <a className="inline-flex items-center bg-black text-white px-4 py-2 w-full rounded-md hover:bg-gray-600 transition duration-300">
@@ -16,7 +16,7 @@ const ContactSection = () => {
             </a>
           </Link>
         </div>
-        <div className="w-full flex items-center justify-center gap-4">
+        <div className="w-full flex items-center justify-start gap-4">
           <a
             href="https://www.linkedin.com/in/hela-mylavarapu-480686186/?originalSubdomain=in"
             target="_blank"

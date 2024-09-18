@@ -29,7 +29,7 @@ const Bagel = () => {
         <Menu size={24} />
       </button>
 
-      <Sidebar />
+      <Sidebar isOpen={isMenuOpen} onClose={toggleMenu} />
       <MasonryGrid />
     </div>
   );
