@@ -4,8 +4,9 @@ import React from "react";
 import Head from "next/head";
 import { Menu } from "lucide-react";
 import { useGlobalContext, GlobalProvider } from "@/AppContext";
+import MasonryGrid from "@/components/MasonryGrid";
 
-const Portfolio = () => {
+const Bagel = () => {
   const { isMenuOpen, setIsMenuOpen } = useGlobalContext();
 
   const toggleMenu = () => {
@@ -29,14 +30,14 @@ const Portfolio = () => {
       </button>
 
       <Sidebar />
-      <MainContent />
+      <MasonryGrid />
     </div>
   );
 };
 
 const WrappedPortfolio = () => (
   <GlobalProvider>
-    <Portfolio />
+    <Bagel />
   </GlobalProvider>
 );
 
