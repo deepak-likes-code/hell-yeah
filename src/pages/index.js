@@ -2,7 +2,7 @@ import MainContent from "@/components/MainContent";
 import Sidebar from "@/components/SideBar";
 import React from "react";
 import Head from "next/head";
-import { Menu } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { useGlobalContext, GlobalProvider } from "@/AppContext";
 
 const Portfolio = () => {
@@ -25,10 +25,10 @@ const Portfolio = () => {
         className="md:hidden fixed top-4 left-4 z-20 p-2 bg-white rounded-md shadow-md"
         onClick={toggleMenu}
       >
-        <Menu size={24} />
+        {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
       </button>
 
-      <Sidebar />
+      <Sidebar isOpen={isMenuOpen} onClose={toggleMenu} />
       <MainContent />
     </div>
   );

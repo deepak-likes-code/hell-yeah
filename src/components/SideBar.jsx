@@ -1,12 +1,13 @@
 import React from "react";
 import Link from "next/link";
 import ContactSection from "./Contact";
+import { X } from "lucide-react";
 
-const Sidebar = ({ isOpen }) => (
+const Sidebar = ({ isOpen, onClose }) => (
   <aside
     className={`${
       isOpen ? "translate-x-0" : "-translate-x-full"
-    } md:translate-x-0 fixed md:sticky top-0 left-0 z-10 w-64 h-screen bg-white  border-r border-black transition-transform duration-300 ease-in-out overflow-y-auto`}
+    } md:translate-x-0 fixed md:sticky top-0 left-0 z-20 w-64 h-screen bg-white border-r border-black transition-transform duration-300 ease-in-out overflow-y-auto`}
   >
     <div className="p-6 mt-4 h-full flex flex-col">
       <h1 className="text-2xl font-bold mb-6">Hela Mylavarapu</h1>
@@ -36,6 +37,13 @@ const Sidebar = ({ isOpen }) => (
         <ContactSection />
         {/* Add your social links here */}
       </div>
+      {/* Mobile close button */}
+      <button
+        className="md:hidden absolute top-4 right-4 p-2 bg-white rounded-md shadow-md"
+        onClick={onClose}
+      >
+        <X size={24} />
+      </button>
     </div>
   </aside>
 );
