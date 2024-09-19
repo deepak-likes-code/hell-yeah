@@ -6,7 +6,7 @@ import { Menu } from "lucide-react";
 import { useGlobalContext, GlobalProvider } from "@/AppContext";
 import MasonryGrid from "@/components/MasonryGrid";
 
-const Bagel = () => {
+const Play = () => {
   const { isMenuOpen, setIsMenuOpen } = useGlobalContext();
 
   const toggleMenu = () => {
@@ -16,7 +16,7 @@ const Bagel = () => {
   return (
     <div className="flex flex-col md:flex-row min-h-screen bg-white">
       <Head>
-        <title>Hela Mylavarapu - Portfolio</title>
+        <title>Hela Mylavarapu - Photo Gallery</title>
         <meta name="description" content="Portfolio of Hela Mylavarapu" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -29,15 +29,18 @@ const Bagel = () => {
         <Menu size={24} />
       </button>
 
+      {/* <div className="flex flex-grow"> */}
       <Sidebar isOpen={isMenuOpen} onClose={toggleMenu} />
+
       <MasonryGrid />
+      {/* </div> */}
     </div>
   );
 };
 
 const WrappedPortfolio = () => (
   <GlobalProvider>
-    <Bagel />
+    <Play />
   </GlobalProvider>
 );
 

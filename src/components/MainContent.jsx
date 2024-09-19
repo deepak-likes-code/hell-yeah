@@ -44,7 +44,10 @@ const MainContent = ({ setActiveSection }) => {
       </section>
 
       <section className="mb-36">
-        <h2 className="text-xl font-semibold mb-4">MY three words</h2>
+        <h2 className="text-4xl font-semibold mb-4">
+          INTERACTION DESIGNER · DESIGN RESEARCHER · ETERNALLY CURIOUS · FINDING
+          PATTERNS · UNCOVERING TRENDS
+        </h2>
       </section>
 
       <section id="journey" className="mb-36  ">
