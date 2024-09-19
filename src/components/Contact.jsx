@@ -7,12 +7,12 @@ const ContactSection = () => {
 
   return (
     <>
-      <div className="flex flex-col mb-4 gap-8 items-center">
+      <div className="flex flex-col mb-2 gap-8 items-center">
         <div className="w-full">
           <Link href={`mailto:${email}`} passHref legacyBehavior>
-            <a className="inline-flex items-center bg-black text-white px-4 py-2 w-full rounded-md hover:bg-gray-600 transition duration-300">
-              <Mail size={20} className="mr-2" />
-              Send me an email
+            <a className="inline-flex items-center border border-black text-black px-4 py-2 w-full rounded-md hover:border-gray-500 hover:text-gray-500 transition duration-300">
+              <Mail size={24} className="mr-2" />
+              Drop a message
             </a>
           </Link>
         </div>
