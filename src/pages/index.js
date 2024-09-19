@@ -4,10 +4,11 @@ import React from "react";
 import Head from "next/head";
 import { Menu, X } from "lucide-react";
 import { useGlobalContext, GlobalProvider } from "@/AppContext";
+import { useRouter } from "next/router"; // Add this import
 
 const Portfolio = () => {
   const { isMenuOpen, setIsMenuOpen } = useGlobalContext();
-
+  const router = useRouter();
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
@@ -18,6 +19,23 @@ const Portfolio = () => {
         <title>Hela Mylavarapu - Portfolio</title>
         <meta name="description" content="Portfolio of Hela Mylavarapu" />
         <link rel="icon" href="/favicon.ico" />
+        <meta
+          property="og:title"
+          content="Portfolio Website of Hela Mylavarapu"
+        />
+        <meta
+          property="og:description"
+          content="Portfolio of Hela Mylavarapu"
+        />
+        <meta
+          property="og:image"
+          content="https://www.helllyeahh.xyz/images/footer.jpeg"
+        />
+        <meta
+          property="og:url"
+          content={`https://www.helllyeahh.xyz${router.asPath}`}
+        />
+        <meta property="og:type" content="website" />
       </Head>
 
       {/* Mobile Menu Button */}
