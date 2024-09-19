@@ -145,16 +145,34 @@ export const masonryGridItems = [
 
 export const workItems = [
   {
-    title:
-      "La Route tournante à Montgeroult (1898)- Paving the Artistic Future",
-    description: `As the 19th century folded into the pages of history, the art world found itself at the threshold of a new era, with Paul Cézanne leading the charge. "La Route tournante à Montgeroult," painted in 1898, stands as a remarkable testament to Cézanne's pivotal role in shaping the future of visual art. This masterpiece not...`,
+    title: "Enable AI",
+    subtitle: "UI/UX",
+    info: "Solo + Graduation project + 4 months",
+    timeline: "January 2024",
+
+    description:
+      "Graduation project done during my masters in interaction design, exploring meaningful data visualisation of data for general life satisfaction, materialising into a mobile phone application.",
     downloadLink: "",
     imageUrl: "/images/work/enable.png",
   },
+
   {
-    title:
-      "The Road Bridge at L'Estaque (1879-1882): Constructing the Modern Landscape",
-    description: `In the rich tapestry of Paul Cézanne's artistic oeuvre, "The Road Bridge at L'Estaque" holds a distinct place, stitched with the delicate threads of transition and anticipation of the modern art movement. Created between 1879 and 1882, this landscape painting is more than a visual record of the Provençal countryside; it is a reflection of...`,
+    title: "Circular services",
+    subtitle: "design research",
+    info: "Team + Industry project + 7 weeks",
+    description:
+      "A research project for a global retail company to de-code Indian circular behaviours in order to improve product and service offerings as they newly enter the Indian market.",
+    timeline: "January 2024",
+    downloadLink: "",
+    imageUrl: "/images/work/circular_services.png",
+  },
+  {
+    title: "Glimpse",
+    subtitle: "iot masterclass",
+    info: "Exploratory + Team + 1 week",
+    description:
+      "A week long master class to understand how to design for IOT devices, understanding realistic possibilities and the power of quick mock-ups and prototyping.",
+    timeline: "December 2021",
     downloadLink: "",
     imageUrl: "/images/work/glimpse.png",
   },
