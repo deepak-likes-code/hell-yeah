@@ -13,10 +13,10 @@ const Sidebar = ({ isOpen, onClose }) => (
       <h1 className="text-2xl font-bold mb-6">
         <Link href={"/"}>Hela Mylavarapu</Link>
       </h1>
-      <nav className="mb-6">
-        <ul className="space-y-2 text-gray-600">
+      <nav className="mb-6 font-semibold hover:text-bold">
+        <ul className="space-y-2 text-gray-600 ">
           <li>
-            <Link href="/#journey" className="hover:text-black">
+            <Link href="/#journey" className="hover:text-black  ">
               Prev
             </Link>
           </li>
@@ -26,7 +26,9 @@ const Sidebar = ({ isOpen, onClose }) => (
             </Link>
           </li>
           <li>
-            <Link href="/play"> Play</Link>
+            <Link href="/play" className="hover:text-black">
+              Play
+            </Link>
           </li>
         </ul>
       </nav>

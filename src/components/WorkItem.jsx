@@ -19,15 +19,19 @@ const WorkItem = ({
       <p className="text-sm text-gray-500 mb-4">{timeline}</p>
 
       <div className="text-normal underline text-black hover:text-gray-500">
-        <Link href={downloadLink}>View Project</Link>
+        <Link target="_blank" href={downloadLink}>
+          View Project
+        </Link>
       </div>
     </div>
     <div className="md:w-2/3">
-      <img
-        src={imageUrl}
-        alt={title}
-        className="w-full h object-cover rounded-lg"
-      />
+      <Link target="_blank" href={downloadLink}>
+        <img
+          src={imageUrl}
+          alt={title}
+          className="w-full h object-cover rounded-lg"
+        />
+      </Link>
     </div>
   </div>
 );

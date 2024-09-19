@@ -1,14 +1,20 @@
 import React from "react";
 import { masonryGridItems as items } from "@/lib/data";
+import Link from "next/link";
 
 const MasonryGrid = () => {
   return (
     <div className="bg-white flex-1 mb-10 px-4 ">
+      <Link
+        href="/"
+        className="block md:hidden text-center py-4 text-xl font-semibold"
+      >
+        Hela Mylavarapu
+      </Link>
       <div className="grid grid-cols-1 mt-12 md:mt-20 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
         {items.map((item) => (
           <div key={item.id} className="relative overflow-hidden group">
             <img
-              // src={`https://placehold.co/${item.width}x${item.height}`}
               src={item.source}
               alt={item.title}
               height={item.height}

@@ -43,7 +43,7 @@ export const masonryGridItems = [
     width: 250,
     height: 300,
     title: "Probabilistic miracle ",
-    description: "Zone",
+    description: "Zine",
     source: "/images/bagel/lyfebook.jpeg",
   },
   {
@@ -152,7 +152,8 @@ export const workItems = [
 
     description:
       "Graduation project done during my masters in interaction design, exploring meaningful data visualisation of data for general life satisfaction, materialising into a mobile phone application.",
-    downloadLink: "",
+    downloadLink:
+      "https://www.behance.net/gallery/208320649/Enable-short-version",
     imageUrl: "/images/work/enable.png",
   },
 
@@ -163,7 +164,8 @@ export const workItems = [
     description:
       "A research project for a global retail company to de-code Indian circular behaviours in order to improve product and service offerings as they newly enter the Indian market.",
     timeline: "January 2024",
-    downloadLink: "",
+    downloadLink:
+      "https://www.behance.net/gallery/207273697/Circular-Services-Design-research",
     imageUrl: "/images/work/circular_services.png",
   },
   {
@@ -173,7 +175,8 @@ export const workItems = [
     description:
       "A week long master class to understand how to design for IOT devices, understanding realistic possibilities and the power of quick mock-ups and prototyping.",
     timeline: "December 2021",
-    downloadLink: "",
+    downloadLink:
+      "https://www.behance.net/gallery/208319823/Glimpse-IOT-masterclass",
     imageUrl: "/images/work/glimpse.png",
   },
 ];
