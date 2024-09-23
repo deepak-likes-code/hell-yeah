@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 const WorkExperience = ({ experiences }) => {
-  const [activeCompany, setActiveCompany] = useState("ENABLE AI");
+  const [activeCompany, setActiveCompany] = useState("HARMAN INTERNATIONAL");
 
   return (
     <div className="flex flex-col md:flex-row ">

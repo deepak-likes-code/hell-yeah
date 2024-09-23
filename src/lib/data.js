@@ -168,15 +168,37 @@ export const workItems = [
       "https://www.behance.net/gallery/207273697/Circular-Services-Design-research",
     imageUrl: "/images/work/circular_services.png",
   },
+  // {
+  //   title: "Glimpse",
+  //   subtitle: "iot masterclass",
+  //   info: "Exploratory + Team + 1 week",
+  //   description:
+  //     "A week long master class to understand how to design for IOT devices, understanding realistic possibilities and the power of quick mock-ups and prototyping.",
+  //   timeline: "December 2021",
+  //   downloadLink:
+  //     "https://www.behance.net/gallery/208319823/Glimpse-IOT-masterclass",
+  //   imageUrl: "/images/work/glimpse.png",
+  // },
+
   {
-    title: "Glimpse",
-    subtitle: "iot masterclass",
-    info: "Exploratory + Team + 1 week",
+    title: "Playland",
+    subtitle: "game design",
+    info: "Industry + Team + 3 months",
     description:
-      "A week long master class to understand how to design for IOT devices, understanding realistic possibilities and the power of quick mock-ups and prototyping.",
-    timeline: "December 2021",
-    downloadLink:
-      "https://www.behance.net/gallery/208319823/Glimpse-IOT-masterclass",
-    imageUrl: "/images/work/glimpse.png",
+      "Building a game for a leading Audio brand, to enter the metaverse, improving brand loyalty of digital natives via a roblox game.",
+    timeline: "July 2022",
+    downloadLink: "https://www.behance.net/gallery/208369631/Music-Playland",
+    imageUrl: "/images/work/roblox.jpeg",
+  },
+
+  {
+    title: "H2O",
+    subtitle: "speculative design",
+    info: "UX + Team + 1 months",
+    description:
+      "Following a speculative design framework, we delved into the future of beverages and designed an AR experience that fosters a connection deeper connection between humans and water.",
+    timeline: "July 2022",
+    downloadLink: "https://www.behance.net/gallery/208369631/Music-Playland",
+    imageUrl: "/images/work/water.jpeg",
   },
 ];

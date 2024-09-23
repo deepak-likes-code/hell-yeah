@@ -16,7 +16,7 @@ const WorkItem = ({
       <p className="text-xl text-gray-700 mb-4 ">{info}</p>
 
       <p className="text-gray-700 mb-4">{description}</p>
-      <p className="text-sm text-gray-500 mb-4">{timeline}</p>
+      {/* <p className="text-sm text-gray-500 mb-4">{timeline}</p> */}
 
       <div className="text-normal underline text-black hover:text-gray-500">
         <Link target="_blank" href={downloadLink}>
