@@ -183,7 +183,7 @@ export const workItems = [
   {
     title: "Playland",
     subtitle: "game design",
-    info: "Industry + Team + 3 months",
+    info: "Team + Industry project + 3 months",
     description:
       "Building a game for a leading Audio brand, to enter the metaverse, improving brand loyalty of digital natives via a roblox game.",
     timeline: "July 2022",
@@ -194,9 +194,9 @@ export const workItems = [
   {
     title: "H2O",
     subtitle: "speculative design",
-    info: "UX + Team + 1 months",
+    info: "Team + UX design + 1 month",
     description:
-      "Following a speculative design framework, we delved into the future of beverages and designed an AR experience that fosters a connection deeper connection between humans and water.",
+      "Following a speculative design framework, we delved into the future of beverages and designed an AR experience that fosters a deeper connection between humans and water.",
     timeline: "July 2022",
     downloadLink: "https://www.behance.net/gallery/208369631/Music-Playland",
     imageUrl: "/images/work/water.jpeg",
