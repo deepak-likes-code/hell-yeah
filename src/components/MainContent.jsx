@@ -74,19 +74,6 @@ const MainContent = ({ setActiveSection }) => {
         </div>
       </section>
 
-      <section id="education" className="mb-12 md:mb-36">
-        <h2 className="text-xl md:text-2xl font-normal mb-4">EDUCATION</h2>
-        <p className="text-lg md:text-xl font-semibold">
-          Strate school of design
-        </p>
-        <p className="text-sm md:text-base">
-          Masters in Interaction Design 2024
-        </p>
-        <p className="text-sm md:text-base">
-          Bachelors in Interaction Design 2022
-        </p>
-      </section>
-
       <section id="work" className="mb-12 md:mb-36">
         <h2 className="text-xl md:text-2xl font-normal mb-4">
           A GLIMPSE OF MY WORK
@@ -98,7 +85,7 @@ const MainContent = ({ setActiveSection }) => {
       <section className="mb-4">
         <div className="w-full h-48 sm:h-64 md:h-[50vh] lg:h-[70vh] relative rounded-lg overflow-hidden">
           <Image
-            src="/images/footer.jpeg"
+            src="/images/footer_new.jpeg"
             alt="Footer image"
             layout="fill"
             objectFit="cover"
