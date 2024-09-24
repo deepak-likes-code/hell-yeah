@@ -168,17 +168,6 @@ export const workItems = [
       "https://www.behance.net/gallery/207273697/Circular-Services-Design-research",
     imageUrl: "/images/work/circular_services.png",
   },
-  // {
-  //   title: "Glimpse",
-  //   subtitle: "iot masterclass",
-  //   info: "Exploratory + Team + 1 week",
-  //   description:
-  //     "A week long master class to understand how to design for IOT devices, understanding realistic possibilities and the power of quick mock-ups and prototyping.",
-  //   timeline: "December 2021",
-  //   downloadLink:
-  //     "https://www.behance.net/gallery/208319823/Glimpse-IOT-masterclass",
-  //   imageUrl: "/images/work/glimpse.png",
-  // },
 
   {
     title: "Playland",
@@ -199,7 +188,7 @@ export const workItems = [
       "Following a speculative design framework, we delved into the future of beverages and designed an AR experience that fosters a deeper connection between humans and water.",
     timeline: "July 2022",
     downloadLink:
-      "https://www.behance.net/gallery/208543159/Speculative-design-H2O/modules/1184588321",
+      "https://www.behance.net/gallery/208543159/Speculative-design-H2O",
     imageUrl: "/images/work/water.jpeg",
   },
 ];
