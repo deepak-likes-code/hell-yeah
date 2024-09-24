@@ -168,17 +168,6 @@ export const workItems = [
       "https://www.behance.net/gallery/207273697/Circular-Services-Design-research",
     imageUrl: "/images/work/circular_services.png",
   },
-  // {
-  //   title: "Glimpse",
-  //   subtitle: "iot masterclass",
-  //   info: "Exploratory + Team + 1 week",
-  //   description:
-  //     "A week long master class to understand how to design for IOT devices, understanding realistic possibilities and the power of quick mock-ups and prototyping.",
-  //   timeline: "December 2021",
-  //   downloadLink:
-  //     "https://www.behance.net/gallery/208319823/Glimpse-IOT-masterclass",
-  //   imageUrl: "/images/work/glimpse.png",
-  // },
 
   {
     title: "Playland",
