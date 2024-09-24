@@ -198,7 +198,8 @@ export const workItems = [
     description:
       "Following a speculative design framework, we delved into the future of beverages and designed an AR experience that fosters a deeper connection between humans and water.",
     timeline: "July 2022",
-    downloadLink: "https://www.behance.net/gallery/208369631/Music-Playland",
+    downloadLink:
+      "https://www.behance.net/gallery/208543159/Speculative-design-H2O/modules/1184588321",
     imageUrl: "/images/work/water.jpeg",
   },
 ];
