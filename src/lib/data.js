@@ -188,7 +188,7 @@ export const workItems = [
       "Following a speculative design framework, we delved into the future of beverages and designed an AR experience that fosters a deeper connection between humans and water.",
     timeline: "July 2022",
     downloadLink:
-      "https://www.behance.net/gallery/208543159/Speculative-design-H2O/modules/1184588321",
+      "https://www.behance.net/gallery/208543159/Speculative-design-H2O",
     imageUrl: "/images/work/water.jpeg",
   },
 ];
