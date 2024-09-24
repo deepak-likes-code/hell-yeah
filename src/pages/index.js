@@ -29,7 +29,7 @@ const Portfolio = () => {
         />
         <meta
           property="og:image"
-          content="https://www.helllyeahh.xyz/images/footer.jpeg"
+          content="https://www.helllyeahh.xyz/images/footer_new.jpeg"
         />
         <meta
           property="og:url"
