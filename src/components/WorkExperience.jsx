@@ -40,7 +40,7 @@ const WorkExperience = ({ experiences }) => {
 
       <div className="w-full h-full md:w-2/3">
         {activeCompany && (
-          <div className=" md:h-[200px] bg-white p-4 rounded-sm border border-black ">
+          <div className="min-h-[200px] bg-white p-4 rounded-sm border border-black">
             {experiences.map(
               (exp, index) =>
                 exp.company === activeCompany && (

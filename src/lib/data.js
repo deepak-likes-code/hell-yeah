@@ -4,9 +4,17 @@ export const workExperienceData = [
     role: "Co-founder, vision, design and ops",
     period: "Mar 2024 - Present · 5 mos",
     details: [
-      "Birthed from the vision of wanting to Enable human beings to be their ultimate selves, utilizing AI by creating a second semi-autonomous second-brain tool for self-development and life satisfaction.",
-      `Wrote my thesis on the same, titled "Mining of self in the digital age"`,
-      "Currently working on the application, with an AI wearable in the pipeline in collaboration with my technical co-founder.",
+      "Enable AI is a life dashboard app that helps users track goals, journal, and gain AI-driven insights for personal growth. I'm currently building it with a developer for market launch.",
+      "Enable helped me grow, sharpened my holistic thinking about product strategy, cross-functional collaboration, and strengthened my pitching skills through investor discussions.",
+    ],
+  },
+
+    {
+    company: "LIFEiDESIGN",
+    role: "Service designer (Part-time)",
+    period: "Nov - Dec 2024 · 2 mos",
+    details: [
+      "As a service designer, I helped improve their overall product offering; conducted heuristic analysis to streamline user experience, strategised game levels, created a service design blueprint and a gathertown virtual space.",
     ],
   },
   {
@@ -14,8 +22,10 @@ export const workExperienceData = [
     role: "Design consultant (Part-time), research & UI/UX",
     period: "Jun - Dec 2023 · 7 mos",
     details: [
-      "Atlantis DAO is a web3 start-up focusing on creating a network of social and climate heros with two flagship applications.",
-      "My responsibility as a consultant was to handle a phygital product project: starting with design research, market analysis, brainstorming and wireframing for the same.",
+      `Eco homes booking application: I soley conducted user interviews
+and market research to identify target user groups and turned
+insights into UI/UX features of the app paving way for a better
+product positioning for launch.`,
     ],
   },
   {
@@ -23,8 +33,9 @@ export const workExperienceData = [
     role: "Interaction design intern",
     period: "Feb 2022 - Jan 2023 · 1 yr",
     details: [
-      "As a design intern at Harman, I have worked closely with the future experiences team to strategise methodologies to inculcate new-age tech, delved into market research and analysis, strategy, game design and creative visualisation.",
-      "I have also worked with the Research team to help on a proejct to help and bridge the communication gap between designers and researchers.",
+      "Along with the Global FX team (future experiences), we researched AR/VR trends, identifying key business opportunities and designed a pitch that secured internal funding.",
+      "Designed a JBL Roblox game, to increase brand loyalty among digital natives, designed a pitch, currently in development and set for release.",
+      "With the global research team, we analysed feedback and studied touchpoints to map user journeys and created prototypes that make hand-offs more efficient for designers.",
     ],
   },
   {
@@ -141,6 +152,42 @@ export const masonryGridItems = [
     description: "Free Hand Sketching",
     source: "/images/bagel/sketching.jpg",
   },
+
+    {
+    id: 13,
+    width: 250,
+    height: 250,
+    title: "Superteam Mug",
+    description: "Merch Design",
+    source: "/images/bagel/merch_design.png",
+  },
+  {
+    id: 14,
+    width: 250,
+    height: 250,
+    title: "Friend",
+    description: "Clay Modelling",
+    source: "/images/bagel/clay_modelling.jpg",
+  },
+
+  {
+    id: 15,
+    width: 250,
+    height: 250,
+    title: "Potrait Study",
+    description: "Realistic Rendering",
+    source: "/images/bagel/realistic_rendering.png",
+  },
+
+  {
+    id: 16,
+    width: 250,
+    height: 250,
+    title: "Fashion Brand Merch",
+    description: "Merch Design",
+    source: "/images/bagel/tote_design.png",
+  },
+
 ];
 
 export const workItems = [

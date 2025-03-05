@@ -26,7 +26,7 @@ const Sidebar = ({ isOpen, onClose }) => (
             </Link>
           </li>
           <li>
-            <Link href="/play" className="hover:text-black">
+            <Link href="/play" className="hover:text-black px-2 py-2 text-left border border-black rounded-md inline-block transition-colors duration-200 hover:bg-gray-300">
               Play
             </Link>
           </li>
