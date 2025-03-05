@@ -238,4 +238,15 @@ export const workItems = [
       "https://www.behance.net/gallery/208543159/Speculative-design-H2O",
     imageUrl: "/images/work/water.jpeg",
   },
+
+  {
+    title: "Serenity Sounds",
+    subtitle: "UI/UX",
+    info: "Solo + design sprint + 1 day",
+    description:
+      "Serenity Sounds is a unique platform that transforms user inputs into AI-generated calming music. I indulged in a rapid design sprint to design the AI application to enhance figma skills and streamlining my design thought process.",
+    timeline: "July 2024",
+    downloadLink: "https://behance.net/gallery/220740019/Serenity-Sounds-AI-music-app",
+    imageUrl: "/images/work/serenity.png",
+  },
 ];
